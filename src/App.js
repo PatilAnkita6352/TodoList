@@ -52,17 +52,7 @@ function App() {
   }, [todos])
 
   return (
-    <>
-hiii
-//         <Header title="My Todos list" searchBar={true} />
-        
-
-//         <AddTodo addTodo={addTodo} /><br />
-//       <Todoitem todo={todos} onDelete={onDelete} />
-
-//         <Footer />
-
-    </>
+    <>hiii</>
   );
 }
 
