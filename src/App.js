@@ -1,4 +1,4 @@
-import './App.css';
+
 import Header from './MyComponent/Header';
 import { Todoitem } from './MyComponent/Todoitem';
 import { AddTodo } from './MyComponent/AddTodo';
