@@ -5,12 +5,7 @@ import { AddTodo } from './MyComponent/AddTodo';
 import { Footer } from './MyComponent/Footer';
 import { About } from './MyComponent/About';
 import React, { useState, useEffect } from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+
 
 function App() {
   let initTodo;
@@ -58,28 +53,15 @@ function App() {
 
   return (
     <>
-      {/* <Router> */}
-        <Header title="My Todos list" searchBar={true} />
-        {/* <Switch>
-          <Route path="/" render={()=>{
-            return (
-            <>
-            <AddTodo addTodo={addTodo} /><br />
-            <Todoitem todo={todos} onDelete={onDelete} />
-            </>)
-          }}>
-          </Route>
-          <Route path="./about">
-            <About />
-          </Route>
 
-        </Switch> */}
+        <Header title="My Todos list" searchBar={true} />
+        
 
         <AddTodo addTodo={addTodo} /><br />
       <Todoitem todo={todos} onDelete={onDelete} />
 
         <Footer />
-      {/* </Router> */}
+
     </>
   );
 }
