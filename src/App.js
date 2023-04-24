@@ -1,10 +1,10 @@
 
-import Header from './MyComponent/Header';
-import { Todoitem } from './MyComponent/Todoitem';
-import { AddTodo } from './MyComponent/AddTodo';
-import { Footer } from './MyComponent/Footer';
-import { About } from './MyComponent/About';
-import React, { useState, useEffect } from 'react';
+// import Header from './MyComponent/Header';
+// import { Todoitem } from './MyComponent/Todoitem';
+// import { AddTodo } from './MyComponent/AddTodo';
+// import { Footer } from './MyComponent/Footer';
+// import { About } from './MyComponent/About';
+// import React, { useState, useEffect } from 'react';
 
 
 function App() {
@@ -53,14 +53,14 @@ function App() {
 
   return (
     <>
-
-        <Header title="My Todos list" searchBar={true} />
+hiii
+//         <Header title="My Todos list" searchBar={true} />
         
 
-        <AddTodo addTodo={addTodo} /><br />
-      <Todoitem todo={todos} onDelete={onDelete} />
+//         <AddTodo addTodo={addTodo} /><br />
+//       <Todoitem todo={todos} onDelete={onDelete} />
 
-        <Footer />
+//         <Footer />
 
     </>
   );
